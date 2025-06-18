@@ -77,12 +77,12 @@ const animateOnScroll = () => {
 //     });
 // });
 
-// // Scroll down button (di Hero)
-// document.querySelector('.scroll-down').addEventListener('click', () => {
-//     document.getElementById('about').scrollIntoView({ 
-//         behavior: 'smooth' 
-//     });
-// });
+// Scroll down button (di Hero)
+document.querySelector('.scroll-down').addEventListener('click', () => {
+    document.getElementById('about').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
 
 // // Scroll animation
 // const animateOnScroll = () => {
@@ -255,3 +255,4 @@ if (mobileMenuToggle && headerContainer) {
         });
     });
 }
+
